@@ -12,14 +12,27 @@
             <h1>
                 Book Club List
             </h1>
-
         </div>
     </header>
     
+    
     <div class ="btncontainer">
+        <form  id="book-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <input type="text" id="pages" placeholder="Number of Pages" required>
+            <label for="read">
+                  Has Read?
+            </label>
+            <input type="checkbox" name="read" id="read">
+        
         <div class="center">
             <button class="btn" id="addbook">Add Book</button>
         </div>
+        </form>
+        <div id="book-list"></div>
     </div>
+    
+
 </body>
 </html>
